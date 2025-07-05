@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>구구단 문제 풀이 홈페이지</title>
+    
+    <!-- ✅ SEO 메타 태그 추가 -->
+    <meta name="description" content="구구단 문제를 풀 수 있는 무료 온라인 학습 사이트입니다. 자동 문제 생성과 정답 확인 기능을 제공합니다.">
+    <meta name="keywords" content="구구단, 구구단 문제, 구구단 연습, 초등 수학, 수학 게임, 온라인 학습, 구구단 풀이">
+    <meta name="robots" content="index, follow">
+
+    <!-- 스타일 및 부트스트랩 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body { background: #f8fafc; }
@@ -28,6 +35,7 @@
         <button class="btn btn-outline-secondary btn-sm" onclick="newQuestion()">새 문제</button>
     </div>
 </div>
+
 <script>
     let a, b;
     function newQuestion() {
@@ -49,8 +57,7 @@
             document.getElementById('result').style.color = '#dc3545';
         }
     };
-    // 첫 문제 출제
     newQuestion();
 </script>
 </body>
-</html> 
+</html>
